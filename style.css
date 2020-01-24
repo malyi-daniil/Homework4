@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 1349px;
+}
+/* HEADER */
+.container{
+    display: flex;
+  
+    margin-top: 48px;
+    margin-left: 30px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.site-logo{
+    margin-left: 30px;
+}
+.nav-list{
+    justify-content: flex-end;
+    display: flex;
+    list-style: none;
+    width: 1170px;
+}
+.nav-item{
+    margin-right: 32px;
+}
+.nav-link{
+  text-decoration: none;
+   
+  width: 473px;
+  height: 23px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 11px;
+  color: #1abc9c;
+  font-family: "Open Sans";
+  font-weight: 700;
+  text-align: right;
+color: black;
+transition: .2s;
+}
+.nav-link:hover{
+    color: #1abc9c;
+}
+/* HEADER */
+.headline{
+    display: flex;
+    height: 278px;
+    width: 1300px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main-headline{
+    width: 1598px;
+height: 83px;
+font-size: 48px;
+letter-spacing: -1px;
+line-height: 32px;
+color: #515151;
+font-family: "Roboto";
+font-weight: 900;
+text-align: center;
+
+}
+.main-headline::after{
+    content: "";
+    display: block;
+    background-color: #1abc9c;
+    height: 7px;
+    width: 164px;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+/* HEADER */
+/* MAIN, 1 SECTION */
+.products{
+    display: flex;
+    
+    height: 676px;
+    margin: 0 auto;
+    
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+   margin: 0 auto;
+   
+}
+.product-list__item{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 282px;
+    height: 280px;
+    background-color: #e8eefc;
+    
+    overflow: hidden;
+    margin-bottom: 30px;
+    align-items: stretch;
+    
+}
+.product-img{
+   
+    
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.title{
+    display: flex;
+   height: 40px;
+   
+    padding-left: 12px;
+font-size: 18px;
+letter-spacing: 0px;
+line-height: 40px;
+color: white;
+background: black;
+font-family: "Roboto";
+font-weight: 900;
+align-items: center;
+}
+.price{
+    display: flex;
+    background: #8c8c8c;
+    justify-content: center;
+    position: absolute;
+    width: 54px;
+    height: 40px;
+    align-self: flex-end;
+
+font-size: 18px;
+letter-spacing: 0px;
+line-height: 32px;
+color: #ffffff;
+font-family: "Roboto";
+font-weight: 900;
+
+   
+}
+.title:hover{
+    background-color:#1abc9c ;
+    
+}
+
+
+/* MAIN SECTION 2 */
+.news{
+    
+    margin-top: 100px;
+    
+    
+ 
+   
+    
+}
+.news-headline{
+    display: flex;
+width: 1200px;
+height: 260px;
+margin: 0 auto;
+text-align: center;
+justify-content: center;
+}
+.news-headline__item{
+    
+    font-size: 48px;
+letter-spacing: -1px;
+line-height: 32px;
+color: #555252;
+font-family: "Roboto";
+font-weight: 900;
+text-align: center;
+margin-bottom: 80px;
+}
+.news-headline__item::after{
+    content: "";
+    display: block;
+    background-color: #1abc9c;
+    height: 7px;
+    width: 164px;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.news-list{
+   display: flex;
+   
+   justify-content: space-around ;
+   margin: 0 auto;
+   width: 1349px;
+  
+}
+.article{
+    
+    width: 350px;
+    height: 541px;
+    
+    
+}
+.article-img{
+    display: flex;
+    position: static;
+    width: 347px;
+    height: 261px;
+}
+.article-headline{
+    margin-top: 14px;
+    /* display: flex; */
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #555252;
+    font-family: "Open Sans";
+    font-weight: 600;
+}
+.article-headline::after{
+    content: "";
+    display: block;
+    
+    background-color: #1abc9c;
+    width: 136px;
+    height: 3px;
+    margin-top: 13px;
+    margin-bottom: 27px;
+    
+}
+.article-text{
+    width: 362px;
+height: 65px;
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #555252;
+font-family: "Open Sans";
+font-weight: 400;
+margin: 0 auto;
+}
+.article-button{
+   
+    margin-top: 21px;
+    width: 160px;
+    height: 51px;
+    font-size: 16px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+font-family: "Open Sans";
+font-weight: 300;
+text-align: center;
+background-color: #1abc9c;
+}
